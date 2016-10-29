@@ -3,10 +3,10 @@
 import UIKit
 import PlaygroundSupport
 
-var str = "Hello, playground"
 
 let containerView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 375.0, height: 667.0))
 
+PlaygroundPage.current.liveView = containerView
 
 let circle = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 375.0, height: 667.0))
 
@@ -28,7 +28,7 @@ rectangle.backgroundColor = UIColor.white
 
 containerView.addSubview(rectangle)
 
-UIView.animate(withDuration: 2.0, animations: {<#T##() -> Void#>in
+UIView.animate(withDuration: 2.0, animations: {() -> Void in
     let endingColor = UIColor(red: (255.0/255.0), green: (61.0/255.0), blue: (24.0/255.0), alpha: 1.0)
     circle.backgroundColor = endingColor
 

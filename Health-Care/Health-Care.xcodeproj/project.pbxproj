@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035A10791DC4162500C090CF /* Animation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Animation.playground; sourceTree = "<group>"; };
 		036680821DBADCCF001BFFAA /* Health-Care.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health-Care.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		036680851DBADCCF001BFFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		036680871DBADCCF001BFFAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +41,7 @@
 			children = (
 				036680841DBADCCF001BFFAA /* Health-Care */,
 				036680831DBADCCF001BFFAA /* Products */,
+				035A10791DC4162500C090CF /* Animation.playground */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,6 +301,7 @@
 				036680961DBADCCF001BFFAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
